@@ -3,7 +3,7 @@
 
 
 ## Installation
-Clone repository
+Clone repository and after
 ```
   cd TodoFront
 ```
