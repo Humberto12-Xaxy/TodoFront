@@ -11,7 +11,6 @@ export const useGetTodo = () => {
     const params = useParams<{ id: string }>();
 
     const getTodoData = useCallback(async () => {
-        console.log(params.id);
         const id = params.id;
         if (!id) return;
         const data = await getTodoById(Number(id));
